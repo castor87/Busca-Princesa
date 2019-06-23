@@ -2945,16 +2945,19 @@ void COMOJOGAR ()
      
      
      
-void PROGRAMADOR ()
+void PROGRAMADORES ()
      {
      int SAIR=0;
      char D;
      cleardevice();
      setcolor(3);
      settextstyle(6,0,5);
-     outtextxy(10, 50, "PROGRAMADOR");
+     outtextxy(10, 50, "PROGRAMADORES");
      setcolor(7);
      settextstyle(6,0,3);
+     outtextxy(10, 150, "ADRIANO BORDO");
+     outtextxy(10, 250, "FERNANDA THAYNNAN R. SANTOS ");
+     outtextxy(10, 350, "FERNANDO LUIZ NEME CHIBLI");
      outtextxy(10, 450, "PAULO FERNANDES COUTO");
      setcolor(7);
      settextstyle(6,0,4);
@@ -2987,7 +2990,7 @@ void MENUINICIAL ()
            settextstyle(6,0,4);
            outtextxy(145,300, "INICIAR");
            outtextxy(145,400, "COMO JOGAR");
-           outtextxy(145,500, "PROGRAMADOR");
+           outtextxy(145,500, "PROGRAMADORES");
            if (VERIFICADOR==0)
               INDICADOR=310;
            if (VERIFICADOR==1)
@@ -3013,7 +3016,7 @@ void MENUINICIAL ()
            if (D==ESPACO && VERIFICADOR==1)
               COMOJOGAR();
            if (D==ESPACO && VERIFICADOR==2)
-              PROGRAMADOR();  
+              PROGRAMADORES();  
            }
      }
 
