@@ -2945,7 +2945,7 @@ void COMOJOGAR ()
      
      
      
-void PROGRAMADORES ()
+void PROGRAMADOR ()
      {
      int SAIR=0;
      char D;
@@ -2987,7 +2987,7 @@ void MENUINICIAL ()
            settextstyle(6,0,4);
            outtextxy(145,300, "INICIAR");
            outtextxy(145,400, "COMO JOGAR");
-           outtextxy(145,500, "PROGRAMADORES");
+           outtextxy(145,500, "PROGRAMADOR");
            if (VERIFICADOR==0)
               INDICADOR=310;
            if (VERIFICADOR==1)
@@ -3013,7 +3013,7 @@ void MENUINICIAL ()
            if (D==ESPACO && VERIFICADOR==1)
               COMOJOGAR();
            if (D==ESPACO && VERIFICADOR==2)
-              PROGRAMADORES();  
+              PROGRAMADOR();  
            }
      }
 
