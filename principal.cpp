@@ -2952,12 +2952,9 @@ void PROGRAMADORES ()
      cleardevice();
      setcolor(3);
      settextstyle(6,0,5);
-     outtextxy(10, 50, "PROGRAMADORES");
+     outtextxy(10, 50, "PROGRAMADOR");
      setcolor(7);
      settextstyle(6,0,3);
-     outtextxy(10, 150, "ADRIANO BORDO");
-     outtextxy(10, 250, "FERNANDA THAYNNAN R. SANTOS ");
-     outtextxy(10, 350, "FERNANDO LUIZ NEME CHIBLI");
      outtextxy(10, 450, "PAULO FERNANDES COUTO");
      setcolor(7);
      settextstyle(6,0,4);
